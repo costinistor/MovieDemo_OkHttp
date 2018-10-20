@@ -44,9 +44,7 @@ class MainActivity : AppCompatActivity() {
 //                runOnUiThread {
 //                    movieAdapter.setMovies(movies.data)
 //                }
-//
 //            }
-//
 //        })
 //    }
 }

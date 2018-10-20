@@ -44,8 +44,6 @@ class MovieAdapter: RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
             view.tvMovieGenre.text = movie.genre
             view.tvMovieYear.text = movie.year
             Picasso.get().load(movie.poster).into(view.imgMovie)
-
-            //view.setOnClickListener { println("Push dot") }
         }
 
         fun onClick(position: Int){

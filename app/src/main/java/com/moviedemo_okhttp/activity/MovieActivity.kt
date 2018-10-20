@@ -11,7 +11,7 @@ import android.widget.TextView
 
 class MovieActivity : AppCompatActivity() {
 
-    var lv: ConstraintLayout? = null
+    private var lv: ConstraintLayout? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
